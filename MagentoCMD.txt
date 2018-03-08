@@ -1,6 +1,6 @@
 
 Config Git
-----------
+----------                                                                                Branch name-- Master,Staging
 
 git config --global user.name "<Git Name>"
 
