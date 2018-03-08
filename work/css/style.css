@@ -1,0 +1,17 @@
+.row,.row1{display: flex;margin-top: 35px}
+h1{font-size: 26px; color: #bdb384;}
+.para,.para1{ font-size: 24px; }
+.row>div:nth-child(2),.row>div:nth-child(4),.row1>div:nth-child(1),.row1>div:nth-last-child(3),.row1>div:nth-child(5){ padding: 0 20px; width: 260px}
+.draw{margin: 0 auto; text-align: center}
+.row>div>img{margin-bottom: 35px}
+.parallelogram {color: #fff;text-align: center;padding: 2px 5px;width: 233px;
+font-size: 22px;-webkit-transform: skew(37deg);-moz-transform: skew(37deg);
+-o-transform: skew(37deg);background: #000;}
+.row>div:nth-child(2)>p,.row>div:nth-child(4)>p{ margin-bottom: 53px !important; }
+@media only screen and (max-width:768px){
+    .history{max-width: 100%;}
+    h1{ font-size: 18px }
+    .parallelogram{ font-size: 14px;width: 50%!important }
+    .para,.para1{ font-size: 14px}
+    .row>div:nth-child(5),.row1>div:nth-child(5){display: none}
+}
