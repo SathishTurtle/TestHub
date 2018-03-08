@@ -1,0 +1,68 @@
+
+Config Git
+----------
+
+git config --global user.name "<Git Name>"
+
+git conifg --global user.email sathish.kumar@aceturtle.com
+
+To Clone
+-----------
+
+git clone https://github.com/SathishTurtle/TestHub.git
+
+To Add
+----------
+
+git add FILENAME
+
+To Commit
+-----------
+
+git commit -m "comments" filename
+
+To Push OR Pull
+----------------
+
+git push -u origin (branch name)
+
+git pull -u origin (branch name)
+
+To find git Status, git Branch
+-------------------
+
+git status
+
+git Branch
+
+
+<--------------------------------------------------------------------->
+
+git for Magento
+----------------
+
+git branch
+
+git checkout branch name
+
+git chechout -b New branch name
+
+git pull origin branch name
+
+git status
+
+git add "filepath.css/.js"
+
+git commit -m "comments"
+
+git push origin branch name
+
+
+
+
+
+
+
+
+mysql -u root -p puma < puma_db.sql
+
